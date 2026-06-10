@@ -3,208 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>✨ OLIVIA'S ELITE EMAIL COPY ZONE ✨</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <title>Olivia's Email Copywriting Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('1b4267ee2298e9297e1b121e3cf5b48d09b20bc3.png');
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            margin-top: 20px;
+        }
+
+        header img {
+            max-width: 400px;
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .container {
+            max-width: 900px;
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.95);
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        }
+
+        textarea {
+            width: 100%;
+            min-height: 400px;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            resize: vertical;
+            line-height: 1.6;
+        }
+
+        textarea:focus {
+            outline: none;
+            border-color: #4CAF50;
+            box-shadow: 0 0 5px rgba(76, 175, 80, 0.3);
+        }
+
+        @media (max-width: 768px) {
+            header img {
+                max-width: 300px;
+            }
+
+            .container {
+                padding: 20px;
+            }
+
+            textarea {
+                min-height: 300px;
+            }
+        }
+    </style>
 </head>
 <body>
-    <!-- CURSOR TRAIL -->
-    <div id="cursor-trail"></div>
-
-    <!-- HEADER -->
-    <header class="retro-header">
-        <div class="blink">⭐ YOU'VE GOT EMAILS TO WRITE! ⭐</div>
-        <h1 class="header-title">
-            <span class="sparkle">✨</span>
-            OLIVIA'S EMAIL COPY DUNGEON
-            <span class="sparkle">✨</span>
-        </h1>
-        <p class="header-subtitle">~~ ELITE COPYWRITING ZONE ~~</p>
-        <div class="construction-banner">
-            <img src="https://via.placeholder.com/88x31?text=UNDER%20CONSTRUCTION" alt="Under Construction">
-            <img src="https://via.placeholder.com/88x31?text=BEST%20VIEWED%20IN%20IE5" alt="Best in IE5">
-            <img src="https://via.placeholder.com/88x31?text=EMAIL%20EXPERT" alt="Email Expert">
-        </div>
+    <header>
+        <img src="text (7).gif" alt="Header">
     </header>
 
-    <!-- NAVIGATION BAR -->
-    <nav class="retro-nav">
-        <a href="#home" class="nav-btn">🏠 HOME</a>
-        <a href="#portfolio" class="nav-btn">📧 PORTFOLIO</a>
-        <a href="#skills" class="nav-btn">⚡ SKILLS</a>
-        <a href="#contact" class="nav-btn">💌 CONTACT ME</a>
-        <a href="#guestbook" class="nav-btn">📝 SIGN GUESTBOOK</a>
-    </nav>
-
-    <!-- MAIN CONTENT -->
-    <main class="container">
-        <!-- SIDEBAR -->
-        <aside class="sidebar">
-            <div class="widget purple-widget">
-                <div class="widget-title">⭐ ABOUT ME ⭐</div>
-                <p>Hi!!! I'm Olivia and I write SICK email copy that converts. I've been obsessed with email marketing since 2019.</p>
-                <p class="small-text">~ email maximalist ~</p>
-            </div>
-
-            <div class="widget neon-widget">
-                <div class="widget-title">🎮 QUICK STATS 🎮</div>
-                <ul class="stats-list">
-                    <li>📧 Email Campaigns: <strong>50+</strong></li>
-                    <li>💰 Revenue Generated: <strong>$2M+</strong></li>
-                    <li>📈 Avg Open Rate: <strong>38%</strong></li>
-                    <li>🎯 CTR Champion: <strong>12%</strong></li>
-                </ul>
-            </div>
-
-            <div class="widget lime-widget">
-                <div class="widget-title">👾 VISITORS 👾</div>
-                <div class="visitor-counter">
-                    You are visitor #<span class="counter-number">000042</span>
-                </div>
-                <p class="small-text" style="margin-top: 10px;">Since 2025</p>
-            </div>
-
-            <div class="widget pink-widget">
-                <div class="widget-title">🎵 NOW PLAYING 🎵</div>
-                <p class="marquee">♪ The Macarena ♪ - Los Del Rio</p>
-            </div>
-        </aside>
-
-        <!-- MAIN CONTENT AREA -->
-        <section class="main-content">
-            <!-- HERO SECTION -->
-            <section id="home" class="content-box hero-box">
-                <h2 class="rainbow-text">WELCOME TO MY ZONE</h2>
-                <p class="intro-text">
-                    👋 If you're looking for email copy that POPS, makes people CLICK, and actually gets people to REPLY... 
-                    <span class="blink">YOU'RE IN THE RIGHT PLACE!</span>
-                </p>
-                <div class="cta-buttons">
-                    <button class="retro-button primary-btn">📧 HIRE ME NOW!</button>
-                    <button class="retro-button secondary-btn">📥 GET MY SAMPLES</button>
-                </div>
-            </section>
-
-            <!-- PORTFOLIO SECTION -->
-            <section id="portfolio" class="content-box">
-                <h2 class="rainbow-text">🏆 MY PORTFOLIO 🏆</h2>
-                <p class="section-intro">Here are some of my BEST email campaigns:</p>
-                
-                <div class="portfolio-grid">
-                    <div class="portfolio-item blue-box">
-                        <div class="portfolio-label">CASE STUDY #1</div>
-                        <h3>SaaS Onboarding Series</h3>
-                        <p>Increased user activation by <strong>34%</strong> with a 5-email sequence that felt like chatting with a friend.</p>
-                        <p class="small-text">📊 4.2k opens | 28% CTR</p>
-                    </div>
-
-                    <div class="portfolio-item pink-box">
-                        <div class="portfolio-label">CASE STUDY #2</div>
-                        <h3>E-commerce Flash Sale</h3>
-                        <p>Drove <strong>$187K in revenue</strong> with FOMO-driven subject lines and personality-packed copy.</p>
-                        <p class="small-text">💰 18% conversion rate</p>
-                    </div>
-
-                    <div class="portfolio-item lime-box">
-                        <div class="portfolio-label">CASE STUDY #3</div>
-                        <h3>Newsletter Growth Loop</h3>
-                        <p>Built a referral-driven newsletter that grew from 2k to 50k subscribers in 6 months.</p>
-                        <p class="small-text">🚀 45% week-over-week growth</p>
-                    </div>
-
-                    <div class="portfolio-item yellow-box">
-                        <div class="portfolio-label">CASE STUDY #4</div>
-                        <h3>B2B Re-engagement Campaign</h3>
-                        <p>Won back 12% of dormant users with a humorous, low-pressure win-back series.</p>
-                        <p class="small-text">🎯 12% reactivation rate</p>
-                    </div>
-                </div>
-            </section>
-
-            <!-- SKILLS SECTION -->
-            <section id="skills" class="content-box">
-                <h2 class="rainbow-text">⚡ WHAT I DO ⚡</h2>
-                
-                <div class="skills-container">
-                    <div class="skill-box">
-                        <h3>📧 Email Strategy</h3>
-                        <p>Segmentation, personalization, lifecycle campaigns, retention funnels</p>
-                    </div>
-                    <div class="skill-box">
-                        <h3>✍️ Copywriting</h3>
-                        <p>Subject lines that get opens, bodies that get reads, CTAs that get clicks</p>
-                    </div>
-                    <div class="skill-box">
-                        <h3>🎨 Design & Layout</h3>
-                        <p>Template design, HTML emails, mobile optimization</p>
-                    </div>
-                    <div class="skill-box">
-                        <h3>📊 Analytics</h3>
-                        <p>A/B testing, conversion tracking, performance optimization</p>
-                    </div>
-                </div>
-            </section>
-
-            <!-- CONTACT SECTION -->
-            <section id="contact" class="content-box contact-box">
-                <h2 class="rainbow-text">💌 GET IN TOUCH 💌</h2>
-                <div class="chat-window">
-                    <div class="chat-header">💬 SEND ME A MESSAGE 💬</div>
-                    <form class="contact-form">
-                        <div class="form-group">
-                            <label for="name">Your Name:</label>
-                            <input type="text" id="name" name="name" placeholder="e.g., Cool Internet Person" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Your Email:</label>
-                            <input type="email" id="email" name="email" placeholder="you@awesomemail.com" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Your Message:</label>
-                            <textarea id="message" name="message" placeholder="Tell me about your project!" rows="5" required></textarea>
-                        </div>
-                        <button type="submit" class="retro-button submit-btn">📤 SEND MESSAGE 📤</button>
-                    </form>
-                </div>
-
-                <div class="contact-info">
-                    <p>📧 <strong>Email:</strong> olivia@emailcopywizard.com</p>
-                    <p>🐦 <strong>Twitter:</strong> @emailcopyqueen</p>
-                    <p>💼 <strong>LinkedIn:</strong> /in/oliviaemail</p>
-                </div>
-            </section>
-
-            <!-- GUESTBOOK SECTION -->
-            <section id="guestbook" class="content-box">
-                <h2 class="rainbow-text">📝 SIGN MY GUESTBOOK 📝</h2>
-                <p class="small-text">~~ Thanks for visiting! Come back soon! ~~</p>
-                <div class="guestbook-entries">
-                    <div class="guestbook-entry">
-                        <strong>@EmailNerd2025:</strong> OMG your subject lines are FIRE 🔥
-                    </div>
-                    <div class="guestbook-entry">
-                        <strong>@ConversionKing:</strong> Best copywriter I've worked with!!!
-                    </div>
-                    <div class="guestbook-entry">
-                        <strong>@MarketerMike:</strong> Added to my bookmarks 💾
-                    </div>
-                </div>
-            </section>
-        </section>
-    </main>
-
-    <!-- FOOTER -->
-    <footer class="retro-footer">
-        <p>© 2025 OLIVIA'S EMAIL COPY ZONE™ | Best viewed in Firefox, Chrome, Safari, and IE5</p>
-        <p class="blink">⭐ Last updated: Today ⭐</p>
-        <div class="footer-badges">
-            <span class="badge">HTML5 ✓</span>
-            <span class="badge">CSS3 ✓</span>
-            <span class="badge">COOL ✓</span>
-            <span class="badge">RETRO ✓</span>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
+    <div class="container">
+        <textarea placeholder="Write your content here..."></textarea>
+    </div>
 </body>
 </html>
